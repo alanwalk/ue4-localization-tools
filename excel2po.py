@@ -9,7 +9,7 @@ COLUMN_INDEX_MSGCTXT = 0
 COLUMN_INDEX_MSGID = 1
 COLUMN_INDEX_MSGSTR = 2
 
-PO_VALUE_FORMAT = 'msgctxt "%s\nmsgid "%s"\nmsgstr "%s"\n\n'
+PO_VALUE_FORMAT = 'msgctxt "%s"\nmsgid "%s"\nmsgstr "%s"\n\n'
 
 
 def write_entry_to_po(po_file, po_entry, ignore_length_check):
